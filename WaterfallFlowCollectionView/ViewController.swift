@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    let waterFallCollectionView = WBWaterFallCollectionView()
+    waterFallCollectionView.modelArray = WBModel.getModels()
+    view.addSubview(waterFallCollectionView)
   }
 
   override func didReceiveMemoryWarning() {
