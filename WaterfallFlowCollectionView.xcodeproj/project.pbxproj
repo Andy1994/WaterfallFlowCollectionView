@@ -12,6 +12,10 @@
 		0D80BA8B1F57D9DB00970194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D80BA891F57D9DB00970194 /* Main.storyboard */; };
 		0D80BA8D1F57D9DB00970194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D80BA8C1F57D9DB00970194 /* Assets.xcassets */; };
 		0D80BA901F57D9DB00970194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D80BA8E1F57D9DB00970194 /* LaunchScreen.storyboard */; };
+		0D80BA981F57DF8600970194 /* WBWaterFallCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D80BA971F57DF8600970194 /* WBWaterFallCollectionViewFlowLayout.swift */; };
+		0D80BAA51F57E26A00970194 /* WBWaterFallCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D80BAA41F57E26A00970194 /* WBWaterFallCollectionView.swift */; };
+		0D80BAA71F57E79600970194 /* WBWaterFallCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D80BAA61F57E79600970194 /* WBWaterFallCollectionViewCell.swift */; };
+		0D80BAA91F57E91700970194 /* WBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D80BAA81F57E91700970194 /* WBModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		0D80BA8C1F57D9DB00970194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D80BA8F1F57D9DB00970194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D80BA911F57D9DB00970194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D80BA971F57DF8600970194 /* WBWaterFallCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBWaterFallCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		0D80BAA41F57E26A00970194 /* WBWaterFallCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBWaterFallCollectionView.swift; sourceTree = "<group>"; };
+		0D80BAA61F57E79600970194 /* WBWaterFallCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBWaterFallCollectionViewCell.swift; sourceTree = "<group>"; };
+		0D80BAA81F57E91700970194 /* WBModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		0D80BA841F57D9DA00970194 /* WaterfallFlowCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				0D80BAA81F57E91700970194 /* WBModel.swift */,
+				0D80BA971F57DF8600970194 /* WBWaterFallCollectionViewFlowLayout.swift */,
+				0D80BAA41F57E26A00970194 /* WBWaterFallCollectionView.swift */,
+				0D80BAA61F57E79600970194 /* WBWaterFallCollectionViewCell.swift */,
 				0D80BA851F57D9DB00970194 /* AppDelegate.swift */,
 				0D80BA871F57D9DB00970194 /* ViewController.swift */,
 				0D80BA891F57D9DB00970194 /* Main.storyboard */,
@@ -136,7 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D80BAA91F57E91700970194 /* WBModel.swift in Sources */,
+				0D80BAA71F57E79600970194 /* WBWaterFallCollectionViewCell.swift in Sources */,
+				0D80BA981F57DF8600970194 /* WBWaterFallCollectionViewFlowLayout.swift in Sources */,
 				0D80BA881F57D9DB00970194 /* ViewController.swift in Sources */,
+				0D80BAA51F57E26A00970194 /* WBWaterFallCollectionView.swift in Sources */,
 				0D80BA861F57D9DB00970194 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
